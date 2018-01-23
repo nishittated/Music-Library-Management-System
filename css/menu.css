@@ -1,0 +1,73 @@
+/* Copyright (c) Nishit Tated. All Rights Reserved.
+   Project name: Music Library Management System
+ * This project is licensed under the MIT License, see LICENSE.
+ */ 
+@charset "utf-8";
+/* CSS Document */
+#header{padding:20px 0 10px 20px;}
+#sidebar-1{	margin-bottom:10px;}
+#sidebar-1 div.one{	margin:5px; padding:0 10px 10px 10px;background:#BFFFFE; border: 2px solid #0066B3; -moz-border-radius:5px; }
+#sidebar-1 div.two{	margin:5px; padding:10px; background:#ccc; border: 1px solid #0066B3; }
+#footer {height:60px;}
+#footer a { padding: 0px 2px;font-size:12px;}
+#tech7 { font-size:12px; color:black;}
+
+/* main menu css */
+#underlinemenu{ margin: 0;padding: 0;background-color: #094080;}
+#underlinemenu ul{margin: 0;padding-left: 0;float: left;font-weight: bold;width: 100%;background-color: #094080;}
+* html #underlinemenu ul{margin-bottom: 0;}
+#underlinemenu ul li{display: inline;background-color: #094080;}
+#underlinemenu ul li a{	float: left;color: #FFFFFF;font-weight: bold;padding: 4px 20px 4px 20px;text-decoration: none;background-color: #094080;}
+#underlinemenu ul li a:hover{color:#FF6600;background-color:#FFFFFF;border-bottom: 4px solid #D2E1E6;padding-bottom:0;}
+
+/* left css */
+div#navcontainer {width: 230px;padding: 0px;border-bottom: 1px solid #094080;margin-bottom:10px;}
+div#navcontainer ul {background-color: #D2E1E6;text-align: left;margin: 0; padding: 0px; }
+div#navcontainer ul li {list-style-type: none; border-bottom: 1px solid #5577A5;border-right: 1px solid #094080;}
+div#navcontainer ul li a:link, div#navcontainer ul li a:visited {display: block;color: #000;padding: 5px 5px 5px 15px;text-decoration: none; background: #D2E1E6; margin: 0px;font-size:12px; font-weight:normal; border-left: 5px solid #094080;}
+div#navcontainer ul li a:hover {color: #FF0000;font-size:12px;background: #FFF;font-weight:bold;text-decoration: none; border-left: 5px solid #FFFFFF;}
+div#navcontainer ul li span {display: block;color: #000; padding: 5px 5px 5px 10px;text-decoration: none; background: #D2E1E6; _height: 10px;}
+
+/* util css classes*/
+/*#catBox { background:#EAF4F5; font-family:Verdana,Arial,Sans-Serif;font-size:12px; margin-top:10px;margin-bottom:10px; border:1px solid #0066B3;}*/
+#catBox { background:#EAF4F5; font-family:Verdana,Arial,Sans-Serif;font-size:12px; margin-top:10px;margin-bottom:10px;}
+#catBox .title { text-align:left; font-size:14px; font-weight:bold; padding:5px; padding-left:20px; border-bottom:1px dashed #0066B3; color:#0066B3;}
+.catBoxContent p { padding-left:10px; padding-top:10px; padding-right:10px;}
+.catBoxContent ul li{ list-style:none; display:block; padding-bottom:5px;}
+.catBoxContent a { text-decoration:none;}
+
+.mouseHover{ background:#EAF4F5;}
+#listBox {font-family:Verdana,Arial,Sans-Serif;font-size:12px;padding-left:8px; border-bottom:#999999 dashed 1px;}
+#listBox .title { text-align:left; font-size:12px; font-weight:bold; padding:5px; padding-left:8px;  padding-bottom:15px; color:#0066B3;}
+#listBox p { padding-left:10px;}
+#listBox ul li{ list-style:none; display:block; padding-bottom:4px;}
+#listBox a { font-size:14px; text-decoration:underline;}
+#listBox a:hover { font-size:14px; text-decoration:none;}
+#listBox b{text-decoration:underline;}
+#listBox img.thumb { float:left; padding-right:10px; padding-bottom:30px;}
+#listBox #content1 {float:right; }
+.numbers {line-height: 20px;word-spacing: 4px;font-size:12px; margin-top:10px; margin-bottom:20px;}
+.numbers a {padding:4px 8px;border:#999999 1px solid;background-color:#EAF4F5; text-decoration:none;}
+.numbers a:hover {padding:4px 8px;border:#999999 1px solid;background-color:#094080;color:#FEFEFE;}
+
+
+/*  Slider */
+#newsticker-demo { width:220px; background:#EAF4F5; font-family:Verdana,Arial,Sans-Serif;font-size:12px; margin-top:10px;margin-bottom:10px; border:1px solid #0066B3;}
+#newsticker-demo .title { text-align:center; font-size:14px; font-weight:bold; padding:5px; border-bottom:1px dashed #0066B3; color:#0066B3;}
+
+.newsticker-jcarousellite { width:210px;}
+.newsticker-jcarousellite ul li{ list-style:none; display:block; margin-bottom:10px; padding-left:5px; border-bottom:#CCCCCC dashed 1px; padding-bottom:2px;}
+.newsticker-jcarousellite .info { width:200px; }
+.newsticker-jcarousellite  a.heading { font-size:12px; text-decoration:none;font-weight:bold;}
+.newsticker-jcarousellite  a.readmore { font-size:10px; color:#999999 text-decoration:underline;}
+.newsticker-jcarousellite .info span.cat { display: block; font-size:12px; color:#808080; }
+.clear { clear: both; }
+
+#proAdd { padding:5px; border:#0099FF solid 1px; font-size:12px;}
+#proAdd p { padding:4px; }
+#proAdd b { color:#0066FF; }
+
+#emplist {border: 1px solid #666666;}
+#emplist tbody tr td {font-family: "lucida grande", verdana, sans-serif;font-size: 10px;padding: 3px 2px;border-left: 1px solid #D9D9D9;}
+#emplist tbody tr.even td {	font-family: "lucida grande", verdana, sans-serif;font-size: 10pt;padding: 3px 2px;background-color: #eee;border-left: 1px solid #D9D9D9;}
+#emplist tbody tr.selected td {background-color: #3d80df;color: #ffffff;font-weight: bold;border-left: 1px solid #346DBE;border-bottom: 1px solid #7DAAEA;}
