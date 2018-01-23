@@ -1,0 +1,66 @@
+<!-- Copyright (c) Nishit Tated. All Rights Reserved.
+     Project name: Music Library Management System
+     This project is licensed under the MIT License, see LICENSE.
+  -->
+<aqsa-mvc>
+
+	<!--
+		global-template used to define a common layout for all UI Pages. 
+	-->
+	<global-template>
+		<layout>/layout/SiteTemplate.jsp</layout>
+		<view-part name="body" page="/include/login.jsp" />
+		<view-part name="menu" page="/include/menu.jsp" />
+		<view-part name="footer" page="/include/footer.jsp" />
+		<view-part name="header" page="/include/header.jsp" />
+	</global-template>
+	
+	<!-- 
+		Global views are used to forward/dispatch request to view send by controlled, 
+		but not defined in xml mapping.   
+	 -->
+	<global-views>
+		<view name="coming" page="/common/coming.jsp" />
+		<view name="login" page="/include/login.jsp" />
+		<view-part name="error" page="/common/error.jsp" />
+		<view name="logout" page="/include/logout.jsp" />
+		<view name="main" page="/eMusicSharing.jsp" />
+		<view name="message" page="/common/message.jsp" />
+	</global-views>
+	
+	<action path="home" 
+		class="org.techzoo.aqsa.controller.ParamController">
+		<view name="main" page="/include/login.jsp" />
+	</action>	
+	
+	<action path="admin"
+		class="com.emusic.controllers.AdminController">
+		<view name="success" page="/eMusicSharing.jsp" />
+		<view name="login" page="/include/adminLogin.jsp" />
+		<view name="request" page="/album/RequestHistory.jsp" />
+	</action>
+	
+	<action path="album"
+		class="com.emusic.controllers.AlbumController">
+		<view name="form" page="/album/AlbumForm.jsp" />
+		<view name="albums" page="/album/AlbumList.jsp" />
+		<view name="songs" page="/album/SongList.jsp" />
+	</action>
+
+	<action path="user" 
+			class="com.emusic.controllers.UserController">
+		<view name="success" page="/eMusicSharing.jsp" />
+		<view name="login" page="/include/login.jsp" />
+		<view name="register" page="/user/UserRegistration.jsp" />
+		<view name="reqform" page="/user/SongRequest.jsp" />
+		<view name="request" page="/user/RequestHistory.jsp" />
+	</action>
+	
+	<action path="download" class="com.emusic.controllers.DownloadController" />		
+	<!--
+	   Plug-In tag used to Hook some functionality in between of Request Processing.
+	   implement PlugIn Interface is mandatory. 
+	-->
+	<plug-in class="" />
+	
+</aqsa-mvc>
