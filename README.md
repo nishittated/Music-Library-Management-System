@@ -1,6 +1,11 @@
 # Music-Library-Management-System
 
+# IDE Used: Eclipse & RAD
+# Database: MySQL
+
 # Download from here: https://github.com/nishittated/Music-Library-Management-System
+
+# Developed By: Nishit Tated, Varun Thukral, Ankit Shah
 
 # Find this project useful? ❤️
 * Support it by clicking the ⭐️ button on the upper right of this page. ✌️
@@ -12,4 +17,3 @@
 
 # Contributing to Music Library Management System
 * All pull requests are welcome, make sure to follow the <a href="https://github.com/nishittated/Music-Library-Management-System/blob/master/CONTRIBUTING.md">contribution guidelines </a>when you submit pull request.
-
