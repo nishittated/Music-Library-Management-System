@@ -2,7 +2,7 @@
    Project name: Music Library Management System
  * This project is licensed under the MIT License, see LICENSE.
  */ -->
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <div class="span-17" style="padding-left:20px;">
 <br/>
 <h3>User Registration</h3>
