@@ -8,7 +8,7 @@
     <td>
 	<img src="images/admin-icon.gif" />	</td>
     <td>
-	<h2 style="font-size:18px;">Admin Login</h2>
+	<h2 style="font-size:18px;">Admin Login</h2> 
 		<form method="post" name="frmLogin" id="frmLogin" action="admin.do?action=login">
 		 <div class="errorMessage" align="center"></div>
          <strong>Name : </strong><input name="name" type="text" id="name"  size="10" maxlength="20"><br/>
