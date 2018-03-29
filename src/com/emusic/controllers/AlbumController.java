@@ -122,6 +122,6 @@ public class AlbumController extends BaseController
 			map.put(EMusicLiterals.MESSAGE, m);
 			return new View("message", map);
 		}
-		return null;
+		return null; 
 	}
 }
