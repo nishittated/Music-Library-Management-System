@@ -3,7 +3,7 @@
  * This project is licensed under the MIT License, see LICENSE.
  */
 package com.emusic.beans;
-
+ 
 public class Song {
 	
 	private int id, downloadCount;
