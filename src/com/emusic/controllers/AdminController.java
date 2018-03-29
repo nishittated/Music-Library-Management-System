@@ -2,7 +2,7 @@
    Project name: Online Election Voting System
  * This project is licensed under the MIT License, see LICENSE.
  */
-package com.emusic.controllers;
+package com.emusic.controllers; 
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
