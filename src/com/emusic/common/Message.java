@@ -4,7 +4,7 @@
  */
 package com.emusic.common;
 
-public class Message {
+public class Message { 
 	private String messageType, header, description;
 	public static final String ERROR = "ERROR", 
 			INFO = "INFO",
