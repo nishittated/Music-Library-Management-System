@@ -6,7 +6,7 @@ package com.emusic.beans;
  
 public class Song {
 	
-	private int id, downloadCount;
+	private int id, downloadCount; 
 	private String lyric, singer, length, fileName;
 	private Album album;
 	
