@@ -3,7 +3,7 @@
  * This project is licensed under the MIT License, see LICENSE.
  */
 package com.emusic.beans;
-
+ 
 public class Request {
 	private int id;
 	private String lyrics, album, description, reqDateTime, isAvailable, availableDateTime;
