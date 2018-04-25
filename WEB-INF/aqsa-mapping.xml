@@ -13,7 +13,7 @@
 		<view-part name="menu" page="/include/menu.jsp" />
 		<view-part name="footer" page="/include/footer.jsp" />
 		<view-part name="header" page="/include/header.jsp" />
-	</global-template>
+	</global-template> 
 	
 	<!-- 
 		Global views are used to forward/dispatch request to view send by controlled, 
