@@ -7,7 +7,7 @@
 <br/>
 <h3>Album Creation</h3>
 <hr/>
-<p>Create a New Album entry for e-Music System.</p>
+<p>Create a New Album entry for e-Music System.</p> 
 <div class="span-10">
 <form action="album.do?action=create" method="post">
   <table style="border:1px solid #9DBCEB;">
