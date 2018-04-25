@@ -3,7 +3,7 @@
  * This project is licensed under the MIT License, see LICENSE.
  */
 package com.emusic.common;
-
+ 
 public class EMusicLiterals {
 	
 	public static final String UPLOAD_DIR = "d:/emusic_upload";
