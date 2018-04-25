@@ -4,7 +4,7 @@
  */ -->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="span-17" style="padding-left: 20px;">
-	<br />
+	<br /> 
 	<c:if test="${MESSAGE.messageType == 'SUCCESS'}">
 		<img src="images/apply.png" style="float:left;margin-right:10px;" /> <h3 style="color:#33FF00;">${MESSAGE.header}</h3>
 	</c:if>
