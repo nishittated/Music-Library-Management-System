@@ -1,6 +1,6 @@
 <!-- Copyright (c) Nishit Tated. All Rights Reserved.
    Project name: Music Library Management System
- * This project is licensed under the MIT License, see LICENSE.
+ * This project is licensed under the MIT License, see LICENSE. 
  */ -->
 <div class="span-12" style="margin:50px 0px;">
 <table width="100%" border="1" cellspacing="0" cellpadding="0" style="padding:10px;">
