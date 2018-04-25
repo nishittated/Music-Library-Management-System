@@ -35,7 +35,7 @@
 	<jsp:include page="${template.viewPart['body']}" />
 </div>	
 			
-<div class="span-24" class="myfooter">
+<div class="span-24" class="myfooter"> 
 	<jsp:include page="${template.viewPart['footer']}" />
 </div>		
 
