@@ -26,7 +26,7 @@
     <td style="border-bottom:1px dotted #9DBCEB;">${r.isAvailable}</td>
     <td style="border-bottom:1px dotted #9DBCEB;">${r.availableDateTime}</td>
   </tr>
-  </c:forEach>
+  </c:forEach> 
 </table>
 
 </div>
