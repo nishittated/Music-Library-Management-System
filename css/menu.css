@@ -5,7 +5,7 @@
 @charset "utf-8";
 /* CSS Document */
 #header{padding:20px 0 10px 20px;}
-#sidebar-1{	margin-bottom:10px;}
+#sidebar-1{	margin-bottom:10px;} 
 #sidebar-1 div.one{	margin:5px; padding:0 10px 10px 10px;background:#BFFFFE; border: 2px solid #0066B3; -moz-border-radius:5px; }
 #sidebar-1 div.two{	margin:5px; padding:10px; background:#ccc; border: 1px solid #0066B3; }
 #footer {height:60px;}
