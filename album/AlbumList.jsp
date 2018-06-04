@@ -6,7 +6,7 @@
 <div class="span-17" style="padding-left:20px;">
 <br/> 
 <h3>Song List</h3>
-<hr/>
+<hr/> 
 <p>List of all available Songs in Selected Albums in e-Music System</p>
 <p>To add a more song in this Album, <a href="album.do?action=form">Click Here</a></p>
 <div class="span-16">
