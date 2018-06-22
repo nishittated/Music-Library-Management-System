@@ -31,7 +31,7 @@ public abstract class BaseController extends AbstractController
 
 	private static final int THRESHOLD_SIZE = 1024 * 1024 * 3; 
 	private static final int MAX_FILE_SIZE = 1024 * 1024 * 40; 
-	private static final int REQUEST_SIZE = 1024 * 1024 * 50; 
+	private static final int REQUEST_SIZE = 1024 * 1024 * 50;  
 
 	public List<Album> getAllAlbums()
 			throws Exception {
