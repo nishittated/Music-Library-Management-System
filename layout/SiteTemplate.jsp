@@ -1,6 +1,6 @@
 <!-- Copyright (c) Nishit Tated. All Rights Reserved.
    Project name: Music Library Management System
- * This project is licensed under the MIT License, see LICENSE.
+ * This project is licensed under the MIT License, see LICENSE. 
  */ -->
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
