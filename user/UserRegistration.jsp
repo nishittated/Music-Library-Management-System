@@ -4,8 +4,8 @@
  */ -->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <div class="span-17" style="padding-left:20px;"> 
-<br/>
-<h3>User Registration</h3>
+<br/> 
+<h3>User Registration</h3> 
 <hr/>
 <p>All Users who want to access the e-Music System and don't have any account, can register Here.</p>
 <div class="span-10">
