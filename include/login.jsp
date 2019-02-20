@@ -1,5 +1,5 @@
 <!-- Copyright (c) Nishit Tated. All Rights Reserved.
-   Project name: Music Library Management System
+   Project name: Music Library Management System  
  * This project is licensed under the MIT License, see LICENSE.
  */ --> 
 <div class="span-12" style="margin:50px 0px;"> 
@@ -8,7 +8,7 @@
     <td>
 		<img src="images/SharedMusic.png" width="180" height="180" />	
 	</td>
-    <td>
+    <td> 
 	<h2 style="font-size:18px;">User Login</h2>
 		<form method="post" name="frmLogin" id="frmLogin" action="user.do?action=login">
 		 <div class="errorMessage" align="center"></div>
