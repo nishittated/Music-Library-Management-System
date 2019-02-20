@@ -2,7 +2,7 @@
    Project name: Music Library Management System
  * This project is licensed under the MIT License, see LICENSE.
  */ -->
-<div class="span-17" style="padding-left:20px;"> 
+<div class="span-17" style="padding-left:20px;">  
 <br/>
 <h3>Logout Successfully</h3>
 <hr/>
