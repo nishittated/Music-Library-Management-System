@@ -6,7 +6,7 @@
 <table width="100%" border="1" cellspacing="0" cellpadding="0" style="padding:10px;">
   <tr>
     <td>
-	<img src="images/admin-icon.gif" />	</td>
+	<img src="images/admin-icon.gif" />	</td> 
     <td>
 	<h2 style="font-size:18px;">Admin Login</h2> 
 		<form method="post" name="frmLogin" id="frmLogin" action="admin.do?action=login">
