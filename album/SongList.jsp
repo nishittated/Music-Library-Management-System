@@ -6,7 +6,7 @@
 <%@page import="com.emusic.beans.Song"%> 
  
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<div class="span-17" style="padding-left:20px;">
+<div class="span-17" style="padding-left:20px;"> 
 <br/>
 <div class="span-16">
 <%-- 
