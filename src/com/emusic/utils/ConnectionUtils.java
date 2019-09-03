@@ -11,7 +11,7 @@ public class ConnectionUtils {
 	private static final String driverClass = "com.mysql.jdbc.Driver",
 			url = "jdbc:mysql://localhost:3306/emusic_db",
 			username = "root",
-			password = "root";
+			password = "Your_MySQL_Password";
 
 	public static Connection getConnection() {
 		Connection con = null;
